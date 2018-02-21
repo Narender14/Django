@@ -1,15 +1,15 @@
 # Django
 
-##System Requirement
+## System Requirement
 
 1. It twitter streaming API.
 2. Pymongo client for Connecting to MongoDB
 3. Python 3
 
-
-1. MongoDB version - 3.2.19
-2. tweepy - 3.5.0
-3. pymongo - 3.6.0
+## Version
+- MongoDB version - 3.2.19
+- tweepy - 3.5.0
+- pymongo - 3.6.0
 
 The configuration values are defined in the **config.py** file like Mongo Host, Port, Collection, DB name, twitter keys.
 
