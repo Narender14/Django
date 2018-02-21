@@ -9,6 +9,6 @@ MONGO_COLLECTION = os.getenv('MONGO_COLLECTION', 'tweet')
 
 #Twitter API credentials
 consumer_key = "c_key"
-consumer_secret = "c_s"
+consumer_secret = "c_secret"
 access_key = "a_key"
-access_secret = "a_s"
+access_secret = "a_secret"

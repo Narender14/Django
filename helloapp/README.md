@@ -6,11 +6,11 @@
 2. Django Restframework
 3. Python 3
 
-MongoDB version - 3.2.19
-MongoEngine version - 0.15.0
-Django Version - 2.0.2
-djangorestframework - 3.7.7
-tweepy==3.5.0
+1. MongoDB version - 3.2.19
+2. MongoEngine version - 0.15.0
+3. Django Version - 2.0.2
+4. djangorestframework - 3.7.7
+5. tweepy==3.5.0
 
 
 There are 4 end-points present.
