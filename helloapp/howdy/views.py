@@ -65,9 +65,7 @@ def date(request, start_date, end_date=None, follower=None, retweet_count=None, 
         filter_final = filter_final.filter(screen_name=screen_name)
     if lang is not None:
         filter_final = filter_final.filter(lang=lang)
-    print("here")
-    print(is_csv)
-    print("there")
+        
     if is_csv is None:
         filter_final = filter_final.values_list('screen_name', 'followers_count')
         return Response(data=filter_final,  status=status.HTTP_200_OK)
